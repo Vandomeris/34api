@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        video {
+            max-width: 800px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+    <div class="video-container">
+        <video id="video" src="./sample.mp4"></video>
+    </div>
+
+    <div>
+        <button id="play">Запуск</button>
+        <button id="pause">Пауза</button>
+        <button id="stop">Стоп</button>
+        <input id="volume" type="range">
+        <button id="fullScreen">Полноэкранный режим</button>
+        <input id="seek" type="range">
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
